@@ -75,7 +75,7 @@ qplot(total, data = data_totalperday, ylab="Frequency", xlab="Total Steps per Da
 ## Warning: Removed 8 rows containing non-finite values (stat_bin).
 ```
 
-![](PA1_template_files/figure-html/PA1_figure 1.png)<!-- -->
+![](instructions_fig/PA1_figure 1.png)<!-- -->
 
 
 Lastly, we can calculate and report the mean and median of the total number of steps taken per day:
@@ -115,7 +115,7 @@ Next, we make a time series plot  of the 5-minute interval (x-axis) and the aver
 with(data_avgperday, plot(interval, avg, type = "l", xlab = "Interval", ylab = "Average Steps across Days"))
 ```
 
-![](PA1_template_files/figure-html/PA1_figure 2.png)<!-- -->
+![](instructions_fig/PA1_figure 2.png)<!-- -->
 
 Lastly, we will find the 5-minute interval on average across all the days in the dataset that contains the maximum number of steps (called max_inte here):
 
@@ -174,7 +174,7 @@ qplot(total, data = data_totalperday_imputed, ylab="Frequency", xlab="Total Step
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](PA1_template_files/figure-html/PA1_figure 3.png)<!-- -->
+![](instructions_fig/PA1_figure 3.png)<!-- -->
 
 Lastly, we will alculate and report the mean and median total number of steps taken per day:
 
@@ -232,5 +232,5 @@ g<-ggplot(data_avgdys, aes(x=interval, y=avg))
 g+geom_line()+facet_grid(rows="dys")+labs(x="Intervals", y="Number of Steps")
 ```
 
-![](PA1_template_files/figure-html/PA1_figure 4.png)<!-- -->
+![](instructions_fig/PA1_figure 4.png)<!-- -->
 
