@@ -65,7 +65,6 @@ Next, we use package "ggplot2" to make a histogram of the total number of steps 
 ```r
 library(ggplot2)
 qplot(total, data = data_totalperday, ylab="Frequency", xlab="Total Steps per Day")
-fig.path = "instructions_fig/figure 1.png"
 ```
 
 ```
@@ -76,7 +75,7 @@ fig.path = "instructions_fig/figure 1.png"
 ## Warning: Removed 8 rows containing non-finite values (stat_bin).
 ```
 
-![Figure 1](instructions_fig/figure 1.png)
+![figure 1](instructions_fig/PA1_figure 1.png)
 
 
 Lastly, we can calculate and report the mean and median of the total number of steps taken per day:
