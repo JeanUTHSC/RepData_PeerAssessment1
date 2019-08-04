@@ -66,7 +66,7 @@ Next, we use package "ggplot2" to make a histogram of the total number of steps 
 library(ggplot2)
 qplot(total, data = data_totalperday, ylab="Frequency", xlab="Total Steps per Day")
 ```
-![figure 1](instructions_fig/PA1_figure 1.png)
+![figure 1](https://github.com/JeanUTHSC/RepData_PeerAssessment1/blob/master/instructions_fig/PA1_figure%201.png)
 ```
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
