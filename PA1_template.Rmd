@@ -3,7 +3,6 @@ title: "ReproRes_project _1"
 author: "Jean"
 date: "8/4/2019"
 output: html_document
-keep_md: true
 ---
 
 ```{r setup, include=FALSE}
